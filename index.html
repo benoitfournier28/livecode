@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- Éditeur de texte HTML en live -->
+    <div class="titres"><h1>Editor</h1></div>
+    <div class="txt_decoration">
+        <button id="button_bold" ><strong>B</strong></button>
+        <button id="underline"><u>U</u></button>
+        <button id="italic"><i>I</i></button>
+    </div>
+    <textarea placeholder= "Entrez votre code (en html)" name="" id="text_area" cols="1" rows="1"></textarea>
+
+    <div class="container">
+    <!-- Retranscription du code HTML en live -->
+    
+    <h2>Live_coding</h2>
+    
+    <!-- Loader de positionnement "en train d'écrire" -->
+    <img src="loaderDot2.gif" id="loader" alt="Logo Pacman loader">
+    </div>
+
+    <div id="live"></div>
+
+    <!-- Conteur de caractères -->
+    <span id="statut_counter">Il serait temps que tu commences à coder</span>
+    <span id="counter"></span>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
